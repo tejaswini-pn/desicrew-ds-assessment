@@ -1,0 +1,117 @@
+{
+ "file": "Moral.jpeg",
+ "pages": 1,
+ "doc_type": "moral_hazard_questionnaire",
+ "doc_type_name": "Moral Hazard Questionnaire",
+ "classification_confidence": 1.0,
+ "classification_evidence": "Moral Hazard Questionnaire",
+ "has_handwriting": true,
+ "fields": {
+  "application_number": {
+   "label": "Application Number",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "1500137601025",
+    "pass_b": "1500137601025"
+   },
+   "model_confidence": {
+    "pass_a": 0.99,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "1500137601025",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "name_of_life_assured": {
+   "label": "Name of Life Assured",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "Ashok",
+    "pass_b": "Ashok"
+   },
+   "model_confidence": {
+    "pass_a": 0.98,
+    "pass_b": 0.98
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "Ashok",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "nominee_relationship": {
+   "label": "Nominee Relationship",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "Nephew",
+    "pass_b": "Nephew"
+   },
+   "model_confidence": {
+    "pass_a": 0.98,
+    "pass_b": 0.98
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "Nephew",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "date": {
+   "label": "Date",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "26/04/2026",
+    "pass_b": "26/04/2026"
+   },
+   "model_confidence": {
+    "pass_a": 0.95,
+    "pass_b": 0.95
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "26/04/2026",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "place": {
+   "label": "Place",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "West Bihar",
+    "pass_b": "West Bihar"
+   },
+   "model_confidence": {
+    "pass_a": 0.95,
+    "pass_b": 0.95
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "West Bihar",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  }
+ },
+ "flag_reasons": []
+}

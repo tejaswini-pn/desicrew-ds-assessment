@@ -1,0 +1,36 @@
+{
+  "file": "ChatGPT Image May 2, 2026, 03_43_11 PM.png",
+  "document_type": "Driving Licence",
+  "classification_confidence": 0.99,
+  "document_flagged_for_review": false,
+  "fields": {
+    "dl_number": {
+      "label": "DL Number",
+      "value": "MH12 2021 0001234",
+      "confidence": 0.99,
+      "handwritten": false,
+      "flagged": false
+    },
+    "name": {
+      "label": "Name",
+      "value": "MR. ASHOK",
+      "confidence": 1.0,
+      "handwritten": false,
+      "flagged": false
+    },
+    "date_of_issue": {
+      "label": "Date of Issue",
+      "value": "15/06/2021",
+      "confidence": 0.99,
+      "handwritten": false,
+      "flagged": false
+    },
+    "valid_till": {
+      "label": "Valid Till",
+      "value": "14/06/2041",
+      "confidence": 0.99,
+      "handwritten": false,
+      "flagged": false
+    }
+  }
+}

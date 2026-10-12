@@ -1,0 +1,96 @@
+{
+ "file": "ID.png",
+ "pages": 1,
+ "doc_type": "pan_card",
+ "doc_type_name": "PAN Card",
+ "classification_confidence": 0.99,
+ "classification_evidence": "INCOME TAX DEPARTMENT / Permanent Account Number Card",
+ "has_handwriting": true,
+ "fields": {
+  "pan_number": {
+   "label": "PAN Number",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "ABCDE1234F",
+    "pass_b": "ABCDE1234F"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "ABCDE1234F",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.99,
+   "flag_reasons": []
+  },
+  "full_name": {
+   "label": "Full Name",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "MR. ASHOK",
+    "pass_b": "MR. ASHOK"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "MR. ASHOK",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 1.0,
+   "flag_reasons": []
+  },
+  "fathers_name": {
+   "label": "Father's Name",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "S/O KUMAR",
+    "pass_b": "S/O KUMAR"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "S/O KUMAR",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 1.0,
+   "flag_reasons": []
+  },
+  "date_of_birth": {
+   "label": "Date of Birth",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "18/12/1979",
+    "pass_b": "18/12/1979"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "18/12/1979",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.99,
+   "flag_reasons": []
+  }
+ },
+ "flag_reasons": []
+}

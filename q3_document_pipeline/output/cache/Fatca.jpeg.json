@@ -1,0 +1,117 @@
+{
+ "file": "Fatca.jpeg",
+ "pages": 1,
+ "doc_type": "fatca_annexure",
+ "doc_type_name": "FATCA Annexure Form",
+ "classification_confidence": 0.99,
+ "classification_evidence": "ANNEXURE FORM (Information required for reporting under Section 285BA of the Income Tax Act, 1961)",
+ "has_handwriting": true,
+ "fields": {
+  "policy_number": {
+   "label": "Policy Number",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "1500137601025",
+    "pass_b": "1500137601025"
+   },
+   "model_confidence": {
+    "pass_a": 0.99,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "1500137601025",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "tin_pan": {
+   "label": "TIN / PAN",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "BPQPD3051R",
+    "pass_b": "BPQPD3051R"
+   },
+   "model_confidence": {
+    "pass_a": 0.95,
+    "pass_b": 0.95
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "BPQPD3051R",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "fathers_name": {
+   "label": "Father's Name",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "Arjun Das Kumar",
+    "pass_b": "Arjun Das Kumar"
+   },
+   "model_confidence": {
+    "pass_a": 0.98,
+    "pass_b": 0.95
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "Arjun Das Kumar",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 0.965,
+   "flag_reasons": []
+  },
+  "place_of_birth": {
+   "label": "Place of Birth",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "West Bihar",
+    "pass_b": "West Bihar"
+   },
+   "model_confidence": {
+    "pass_a": 0.9,
+    "pass_b": 0.9
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "West Bihar",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.95,
+   "flag_reasons": []
+  },
+  "nationality": {
+   "label": "Nationality",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "Indian",
+    "pass_b": "Indian"
+   },
+   "model_confidence": {
+    "pass_a": 0.99,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "Indian",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  }
+ },
+ "flag_reasons": []
+}

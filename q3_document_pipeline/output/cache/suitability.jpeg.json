@@ -1,0 +1,117 @@
+{
+ "file": "suitability.jpeg",
+ "pages": 1,
+ "doc_type": "suitability_profiler_declaration",
+ "doc_type_name": "Suitability Profiler Declaration",
+ "classification_confidence": 0.99,
+ "classification_evidence": "Customer Declaration - Suitability Profiler",
+ "has_handwriting": true,
+ "fields": {
+  "application_number": {
+   "label": "Application Number",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "1500137601025",
+    "pass_b": "1500137601025"
+   },
+   "model_confidence": {
+    "pass_a": 0.95,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "1500137601025",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "name_of_life_assured": {
+   "label": "Name of Life Assured",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "Ashok",
+    "pass_b": "Ashok"
+   },
+   "model_confidence": {
+    "pass_a": 0.98,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "Ashok",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "name_of_agent_sp": {
+   "label": "Name of Agent/SP",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "Ramesh Kumar",
+    "pass_b": "Ramesh Kumar"
+   },
+   "model_confidence": {
+    "pass_a": 0.98,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "Ramesh Kumar",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "date": {
+   "label": "Date",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "26/04/26",
+    "pass_b": "26/04/26"
+   },
+   "model_confidence": {
+    "pass_a": 0.95,
+    "pass_b": 0.95
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "26/04/2026",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "place": {
+   "label": "Place",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "West Bihar",
+    "pass_b": "West Bihar"
+   },
+   "model_confidence": {
+    "pass_a": 0.95,
+    "pass_b": 0.95
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "West Bihar",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  }
+ },
+ "flag_reasons": []
+}

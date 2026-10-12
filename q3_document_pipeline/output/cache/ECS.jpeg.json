@@ -1,0 +1,117 @@
+{
+ "file": "ECS.jpeg",
+ "pages": 1,
+ "doc_type": "nach_mandate",
+ "doc_type_name": "NACH / ECS Mandate",
+ "classification_confidence": 0.99,
+ "classification_evidence": "NACH MANDATE INSTRUCTION",
+ "has_handwriting": true,
+ "fields": {
+  "bank_account_number": {
+   "label": "Bank Account Number",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "31004258912",
+    "pass_b": "31004258912"
+   },
+   "model_confidence": {
+    "pass_a": 0.99,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "31004258912",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "ifsc_code": {
+   "label": "IFSC Code",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "SBIN0227112",
+    "pass_b": "SBIN0227112"
+   },
+   "model_confidence": {
+    "pass_a": 0.98,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "SBIN0227112",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "bank_name": {
+   "label": "Bank Name",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "State Bank of India",
+    "pass_b": "State Bank of India"
+   },
+   "model_confidence": {
+    "pass_a": 0.98,
+    "pass_b": 0.95
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "State Bank of India",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "amount_figures": {
+   "label": "Amount (figures)",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "50000",
+    "pass_b": "50000"
+   },
+   "model_confidence": {
+    "pass_a": 0.98,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "50000",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "frequency": {
+   "label": "Frequency",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "As & when presented",
+    "pass_b": "As & when presented"
+   },
+   "model_confidence": {
+    "pass_a": 0.98,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "As & when presented",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  }
+ },
+ "flag_reasons": []
+}

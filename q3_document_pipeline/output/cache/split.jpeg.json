@@ -1,0 +1,96 @@
+{
+ "file": "split.jpeg",
+ "pages": 1,
+ "doc_type": "multiple_policies_consent",
+ "doc_type_name": "Multiple Policies Consent Form",
+ "classification_confidence": 0.99,
+ "classification_evidence": "Split & Multiple Policies - Customer Consent form",
+ "has_handwriting": true,
+ "fields": {
+  "proposer_name": {
+   "label": "Proposer Name",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "Ashok",
+    "pass_b": "Ashok"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "Ashok",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "reason_for_multiple_policies": {
+   "label": "Reason for Multiple Policies",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "Financial Planning (viz. payout on different life stages, different payment terms,etc.)",
+    "pass_b": "Financial Planning (viz. payout on different life stages, different payment terms,etc.)"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "Financial Planning (viz. payout on different life stages, different payment terms,etc.)",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 0.995,
+   "flag_reasons": []
+  },
+  "date": {
+   "label": "Date",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "26/04/2026",
+    "pass_b": "26/04/2026"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "26/04/2026",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "place": {
+   "label": "Place",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "West Bihar",
+    "pass_b": "West Bihar"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 0.99
+   },
+   "alternatives": [],
+   "agreement": "both passes agree",
+   "value": "West Bihar",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  }
+ },
+ "flag_reasons": []
+}

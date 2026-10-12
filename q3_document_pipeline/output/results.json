@@ -1,0 +1,1170 @@
+{
+  "model": "gemini-3.8-flash-lite",
+  "threshold": 0.85,
+  "consistency_warnings": [
+    "Illustration.jpeg: Date '20/04/2026' differs from the other forms' date '26/04/2026'",
+    "Fatca.jpeg: FATCA TIN/PAN 'BPQPD3051R' does not match the PAN card in the set (ABCDE1234F) - extraction kept as written; KYC team should confirm."
+  ],
+  "documents": [
+    {
+      "file": "Aadhar.png",
+      "pages": 1,
+      "doc_type": "aadhaar_card",
+      "doc_type_name": "Aadhaar Card",
+      "classification_confidence": 0.99,
+      "classification_evidence": "GOVERNMENT OF INDIA, AADHAAR logo, 12-digit Aadhaar number format",
+      "has_handwriting": false,
+      "fields": {
+        "aadhaar_number": {
+          "label": "Aadhaar Number",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "1234 5678 9012",
+            "pass_b": "1234 5678 9012"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "1234 5678 9012",
+          "validation": {
+            "status": "warn",
+            "note": "real Aadhaar numbers never start with 0/1 (sample document?)"
+          },
+          "confidence": 0.95,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "full_name": {
+          "label": "Full Name",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "Mr. Ashok",
+            "pass_b": "Mr. Ashok"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "Mr. Ashok",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 1.0,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "date_of_birth": {
+          "label": "Date of Birth",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "18/12/1979",
+            "pass_b": "18/12/1979"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "18/12/1979",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "address": {
+          "label": "Address",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "S/O Kumar, Kataia, West Bihar, India - 841543",
+            "pass_b": "S/O Kumar, Kataia, West Bihar, India - 841543"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "S/O Kumar, Kataia, West Bihar, India - 841543",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 1.0,
+          "flag_reasons": [],
+          "flagged": false
+        }
+      },
+      "flag_reasons": [],
+      "document_flagged": false,
+      "document_confidence": 0.95
+    },
+    {
+      "file": "Assignment Ashok.pdf",
+      "pages": 2,
+      "doc_type": "other",
+      "doc_type_name": "Other / Unsupported",
+      "classification_confidence": 0.99,
+      "classification_evidence": "ASSIGNMENT REQUEST FORM",
+      "has_handwriting": true,
+      "fields": {},
+      "flag_reasons": [
+        "Document type is not one of the 10 supported types - route to manual handling."
+      ],
+      "document_flagged": true,
+      "document_confidence": 0.99
+    },
+    {
+      "file": "ChatGPT Image May 2, 2026, 03_43_11 PM.png",
+      "pages": 1,
+      "doc_type": "driving_licence",
+      "doc_type_name": "Driving Licence",
+      "classification_confidence": 0.99,
+      "classification_evidence": "INDIAN UNION DRIVING LICENCE",
+      "has_handwriting": true,
+      "fields": {
+        "dl_number": {
+          "label": "DL Number",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "MH12 2021 0001234",
+            "pass_b": "MH12 2021 0001234"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "MH12 2021 0001234",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "name": {
+          "label": "Name",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "MR. ASHOK",
+            "pass_b": "MR. ASHOK"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "MR. ASHOK",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 1.0,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "date_of_issue": {
+          "label": "Date of Issue",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "15/06/2021",
+            "pass_b": "15/06/2021"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "15/06/2021",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "valid_till": {
+          "label": "Valid Till",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "14/06/2041",
+            "pass_b": "14/06/2041"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "14/06/2041",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "flagged": false
+        }
+      },
+      "flag_reasons": [],
+      "document_flagged": false,
+      "document_confidence": 0.99
+    },
+    {
+      "file": "ChatGPT Image May 2, 2026, 03_52_54 PM.png",
+      "pages": 1,
+      "doc_type": "passport",
+      "doc_type_name": "Passport",
+      "classification_confidence": 0.99,
+      "classification_evidence": "REPUBLIC OF INDIA PASSPORT",
+      "has_handwriting": true,
+      "fields": {
+        "passport_number": {
+          "label": "Passport Number",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "X1234567",
+            "pass_b": "X1234567"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "X1234567",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "date_of_birth": {
+          "label": "Date of Birth",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "18/12/1979",
+            "pass_b": "18/12/1979"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "18/12/1979",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "date_of_expiry": {
+          "label": "Date of Expiry",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "01/01/2030",
+            "pass_b": "01/01/2030"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "01/01/2030",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "mrz_line_2": {
+          "label": "MRZ Line 2",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<<08",
+            "pass_b": "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<<08"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<<08",
+          "validation": {
+            "status": "fail",
+            "note": "length 45 (ICAO TD3 standard is 44); DOB check digit mismatch; expiry check digit mismatch - '<' filler count is unreliable, verify against image"
+          },
+          "confidence": 0.4,
+          "flag_reasons": [
+            "validation failed: length 45 (ICAO TD3 standard is 44); DOB check digit mismatch; expiry check digit mismatch - '<' filler count is unreliable, verify against image"
+          ],
+          "flagged": true
+        }
+      },
+      "flag_reasons": [
+        "1 field(s) below threshold: MRZ Line 2"
+      ],
+      "document_flagged": true,
+      "document_confidence": 0.4
+    },
+    {
+      "file": "ECS.jpeg",
+      "pages": 1,
+      "doc_type": "nach_mandate",
+      "doc_type_name": "NACH / ECS Mandate",
+      "classification_confidence": 0.99,
+      "classification_evidence": "NACH MANDATE INSTRUCTION",
+      "has_handwriting": true,
+      "fields": {
+        "bank_account_number": {
+          "label": "Bank Account Number",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "31004258912",
+            "pass_b": "31004258912"
+          },
+          "model_confidence": {
+            "pass_a": 0.99,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "31004258912",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "ifsc_code": {
+          "label": "IFSC Code",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "SBIN0227112",
+            "pass_b": "SBIN0227112"
+          },
+          "model_confidence": {
+            "pass_a": 0.98,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "SBIN0227112",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "bank_name": {
+          "label": "Bank Name",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "State Bank of India",
+            "pass_b": "State Bank of India"
+          },
+          "model_confidence": {
+            "pass_a": 0.98,
+            "pass_b": 0.95
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "State Bank of India",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "amount_figures": {
+          "label": "Amount (figures)",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "50000",
+            "pass_b": "50000"
+          },
+          "model_confidence": {
+            "pass_a": 0.98,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "50000",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "frequency": {
+          "label": "Frequency",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "As & when presented",
+            "pass_b": "As & when presented"
+          },
+          "model_confidence": {
+            "pass_a": 0.98,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "As & when presented",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        }
+      },
+      "flag_reasons": [],
+      "document_flagged": false,
+      "document_confidence": 0.97
+    },
+    {
+      "file": "Fatca.jpeg",
+      "pages": 1,
+      "doc_type": "fatca_annexure",
+      "doc_type_name": "FATCA Annexure Form",
+      "classification_confidence": 0.99,
+      "classification_evidence": "ANNEXURE FORM (Information required for reporting under Section 285BA of the Income Tax Act, 1961)",
+      "has_handwriting": true,
+      "fields": {
+        "policy_number": {
+          "label": "Policy Number",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "1500137601025",
+            "pass_b": "1500137601025"
+          },
+          "model_confidence": {
+            "pass_a": 0.99,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "1500137601025",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "cross_check": "matches application/policy no. on 3 other document(s)",
+          "flagged": false
+        },
+        "tin_pan": {
+          "label": "TIN / PAN",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "BPQPD3051R",
+            "pass_b": "BPQPD3051R"
+          },
+          "model_confidence": {
+            "pass_a": 0.95,
+            "pass_b": 0.95
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "BPQPD3051R",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "cross_check": "Fatca.jpeg: FATCA TIN/PAN 'BPQPD3051R' does not match the PAN card in the set (ABCDE1234F) - extraction kept as written; KYC team should confirm.",
+          "flagged": false
+        },
+        "fathers_name": {
+          "label": "Father's Name",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "Arjun Das Kumar",
+            "pass_b": "Arjun Das Kumar"
+          },
+          "model_confidence": {
+            "pass_a": 0.98,
+            "pass_b": 0.95
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "Arjun Das Kumar",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 0.965,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "place_of_birth": {
+          "label": "Place of Birth",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "West Bihar",
+            "pass_b": "West Bihar"
+          },
+          "model_confidence": {
+            "pass_a": 0.9,
+            "pass_b": 0.9
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "West Bihar",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.95,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "nationality": {
+          "label": "Nationality",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "Indian",
+            "pass_b": "Indian"
+          },
+          "model_confidence": {
+            "pass_a": 0.99,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "Indian",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        }
+      },
+      "flag_reasons": [],
+      "document_flagged": false,
+      "document_confidence": 0.95
+    },
+    {
+      "file": "ID.png",
+      "pages": 1,
+      "doc_type": "pan_card",
+      "doc_type_name": "PAN Card",
+      "classification_confidence": 0.99,
+      "classification_evidence": "INCOME TAX DEPARTMENT / Permanent Account Number Card",
+      "has_handwriting": true,
+      "fields": {
+        "pan_number": {
+          "label": "PAN Number",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "ABCDE1234F",
+            "pass_b": "ABCDE1234F"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "ABCDE1234F",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "full_name": {
+          "label": "Full Name",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "MR. ASHOK",
+            "pass_b": "MR. ASHOK"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "MR. ASHOK",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 1.0,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "fathers_name": {
+          "label": "Father's Name",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "S/O KUMAR",
+            "pass_b": "S/O KUMAR"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "S/O KUMAR",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 1.0,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "date_of_birth": {
+          "label": "Date of Birth",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "18/12/1979",
+            "pass_b": "18/12/1979"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 1.0
+          },
+          "alternatives": [],
+          "agreement": "single pass (printed) + validation",
+          "value": "18/12/1979",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "flagged": false
+        }
+      },
+      "flag_reasons": [],
+      "document_flagged": false,
+      "document_confidence": 0.99
+    },
+    {
+      "file": "Illustration.jpeg",
+      "pages": 1,
+      "doc_type": "benefit_illustration_declaration",
+      "doc_type_name": "Benefit Illustration Declaration",
+      "classification_confidence": 0.99,
+      "classification_evidence": "Customer Declaration - Benefit Illustration",
+      "has_handwriting": true,
+      "fields": {
+        "application_number": {
+          "label": "Application Number",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "1500137601025",
+            "pass_b": "1500137601025"
+          },
+          "model_confidence": {
+            "pass_a": 0.95,
+            "pass_b": 0.99
+          },
+          "alternatives": [
+            "1500137601025"
+          ],
+          "agreement": "both passes agree",
+          "value": "1500137601025",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "cross_check": "matches application/policy no. on 3 other document(s)",
+          "flagged": false
+        },
+        "policyholder_name": {
+          "label": "Policyholder Name",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "Ashok",
+            "pass_b": "Ashok"
+          },
+          "model_confidence": {
+            "pass_a": 0.95,
+            "pass_b": 0.98
+          },
+          "alternatives": [
+            "Ashok"
+          ],
+          "agreement": "both passes agree",
+          "value": "Ashok",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 0.965,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "date": {
+          "label": "Date",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "20/04/2026",
+            "pass_b": "20/04/2026"
+          },
+          "model_confidence": {
+            "pass_a": 0.85,
+            "pass_b": 0.85
+          },
+          "alternatives": [
+            "20/04/2020",
+            "20/04/2026"
+          ],
+          "agreement": "both passes agree",
+          "value": "20/04/2026",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.7,
+          "flag_reasons": [
+            "date differs from the other declaration forms (26/04/2026) - possible misread"
+          ],
+          "flagged": true
+        },
+        "place": {
+          "label": "Place",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "West Bihar",
+            "pass_b": "West Bihar"
+          },
+          "model_confidence": {
+            "pass_a": 0.85,
+            "pass_b": 0.8
+          },
+          "alternatives": [
+            "West Bihar"
+          ],
+          "agreement": "both passes agree",
+          "value": "West Bihar",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.875,
+          "flag_reasons": [],
+          "flagged": false
+        }
+      },
+      "flag_reasons": [
+        "1 field(s) below threshold: Date"
+      ],
+      "document_flagged": true,
+      "document_confidence": 0.7
+    },
+    {
+      "file": "Moral.jpeg",
+      "pages": 1,
+      "doc_type": "moral_hazard_questionnaire",
+      "doc_type_name": "Moral Hazard Questionnaire",
+      "classification_confidence": 1.0,
+      "classification_evidence": "Moral Hazard Questionnaire",
+      "has_handwriting": true,
+      "fields": {
+        "application_number": {
+          "label": "Application Number",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "1500137601025",
+            "pass_b": "1500137601025"
+          },
+          "model_confidence": {
+            "pass_a": 0.99,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "1500137601025",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "cross_check": "matches application/policy no. on 3 other document(s)",
+          "flagged": false
+        },
+        "name_of_life_assured": {
+          "label": "Name of Life Assured",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "Ashok",
+            "pass_b": "Ashok"
+          },
+          "model_confidence": {
+            "pass_a": 0.98,
+            "pass_b": 0.98
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "Ashok",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "nominee_relationship": {
+          "label": "Nominee Relationship",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "Nephew",
+            "pass_b": "Nephew"
+          },
+          "model_confidence": {
+            "pass_a": 0.98,
+            "pass_b": 0.98
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "Nephew",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "date": {
+          "label": "Date",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "26/04/2026",
+            "pass_b": "26/04/2026"
+          },
+          "model_confidence": {
+            "pass_a": 0.95,
+            "pass_b": 0.95
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "26/04/2026",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "place": {
+          "label": "Place",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "West Bihar",
+            "pass_b": "West Bihar"
+          },
+          "model_confidence": {
+            "pass_a": 0.95,
+            "pass_b": 0.95
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "West Bihar",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        }
+      },
+      "flag_reasons": [],
+      "document_flagged": false,
+      "document_confidence": 0.97
+    },
+    {
+      "file": "Proposal Ashok.pdf",
+      "pages": 2,
+      "doc_type": "other",
+      "doc_type_name": "Other / Unsupported",
+      "classification_confidence": 0.98,
+      "classification_evidence": "Customer Declaration - Application/Proposal Form",
+      "has_handwriting": true,
+      "fields": {},
+      "flag_reasons": [
+        "Document type is not one of the 10 supported types - route to manual handling."
+      ],
+      "document_flagged": true,
+      "document_confidence": 0.98
+    },
+    {
+      "file": "split.jpeg",
+      "pages": 1,
+      "doc_type": "multiple_policies_consent",
+      "doc_type_name": "Multiple Policies Consent Form",
+      "classification_confidence": 0.99,
+      "classification_evidence": "Split & Multiple Policies - Customer Consent form",
+      "has_handwriting": true,
+      "fields": {
+        "proposer_name": {
+          "label": "Proposer Name",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "Ashok",
+            "pass_b": "Ashok"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "Ashok",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "reason_for_multiple_policies": {
+          "label": "Reason for Multiple Policies",
+          "handwritten": false,
+          "readings": {
+            "pass_a": "Financial Planning (viz. payout on different life stages, different payment terms,etc.)",
+            "pass_b": "Financial Planning (viz. payout on different life stages, different payment terms,etc.)"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "Financial Planning (viz. payout on different life stages, different payment terms,etc.)",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 0.995,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "date": {
+          "label": "Date",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "26/04/2026",
+            "pass_b": "26/04/2026"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "26/04/2026",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "place": {
+          "label": "Place",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "West Bihar",
+            "pass_b": "West Bihar"
+          },
+          "model_confidence": {
+            "pass_a": 1.0,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "West Bihar",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        }
+      },
+      "flag_reasons": [],
+      "document_flagged": false,
+      "document_confidence": 0.97
+    },
+    {
+      "file": "suitability.jpeg",
+      "pages": 1,
+      "doc_type": "suitability_profiler_declaration",
+      "doc_type_name": "Suitability Profiler Declaration",
+      "classification_confidence": 0.99,
+      "classification_evidence": "Customer Declaration - Suitability Profiler",
+      "has_handwriting": true,
+      "fields": {
+        "application_number": {
+          "label": "Application Number",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "1500137601025",
+            "pass_b": "1500137601025"
+          },
+          "model_confidence": {
+            "pass_a": 0.95,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "1500137601025",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.99,
+          "flag_reasons": [],
+          "cross_check": "matches application/policy no. on 3 other document(s)",
+          "flagged": false
+        },
+        "name_of_life_assured": {
+          "label": "Name of Life Assured",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "Ashok",
+            "pass_b": "Ashok"
+          },
+          "model_confidence": {
+            "pass_a": 0.98,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "Ashok",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "name_of_agent_sp": {
+          "label": "Name of Agent/SP",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "Ramesh Kumar",
+            "pass_b": "Ramesh Kumar"
+          },
+          "model_confidence": {
+            "pass_a": 0.98,
+            "pass_b": 0.99
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "Ramesh Kumar",
+          "validation": {
+            "status": "na",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "date": {
+          "label": "Date",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "26/04/26",
+            "pass_b": "26/04/26"
+          },
+          "model_confidence": {
+            "pass_a": 0.95,
+            "pass_b": 0.95
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "26/04/2026",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        },
+        "place": {
+          "label": "Place",
+          "handwritten": true,
+          "readings": {
+            "pass_a": "West Bihar",
+            "pass_b": "West Bihar"
+          },
+          "model_confidence": {
+            "pass_a": 0.95,
+            "pass_b": 0.95
+          },
+          "alternatives": [],
+          "agreement": "both passes agree",
+          "value": "West Bihar",
+          "validation": {
+            "status": "pass",
+            "note": ""
+          },
+          "confidence": 0.97,
+          "flag_reasons": [],
+          "flagged": false
+        }
+      },
+      "flag_reasons": [],
+      "document_flagged": false,
+      "document_confidence": 0.97
+    }
+  ]
+}

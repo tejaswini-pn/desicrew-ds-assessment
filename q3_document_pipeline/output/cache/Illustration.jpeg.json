@@ -1,0 +1,105 @@
+{
+ "file": "Illustration.jpeg",
+ "pages": 1,
+ "doc_type": "benefit_illustration_declaration",
+ "doc_type_name": "Benefit Illustration Declaration",
+ "classification_confidence": 0.99,
+ "classification_evidence": "Customer Declaration - Benefit Illustration",
+ "has_handwriting": true,
+ "fields": {
+  "application_number": {
+   "label": "Application Number",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "1500137601025",
+    "pass_b": "1500137601025"
+   },
+   "model_confidence": {
+    "pass_a": 0.95,
+    "pass_b": 0.99
+   },
+   "alternatives": [
+    "1500137601025"
+   ],
+   "agreement": "both passes agree",
+   "value": "1500137601025",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.97,
+   "flag_reasons": []
+  },
+  "policyholder_name": {
+   "label": "Policyholder Name",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "Ashok",
+    "pass_b": "Ashok"
+   },
+   "model_confidence": {
+    "pass_a": 0.95,
+    "pass_b": 0.98
+   },
+   "alternatives": [
+    "Ashok"
+   ],
+   "agreement": "both passes agree",
+   "value": "Ashok",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 0.965,
+   "flag_reasons": []
+  },
+  "date": {
+   "label": "Date",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "20/04/2026",
+    "pass_b": "20/04/2026"
+   },
+   "model_confidence": {
+    "pass_a": 0.85,
+    "pass_b": 0.85
+   },
+   "alternatives": [
+    "20/04/2020",
+    "20/04/2026"
+   ],
+   "agreement": "both passes agree",
+   "value": "20/04/2026",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.9,
+   "flag_reasons": []
+  },
+  "place": {
+   "label": "Place",
+   "handwritten": true,
+   "readings": {
+    "pass_a": "West Bihar",
+    "pass_b": "West Bihar"
+   },
+   "model_confidence": {
+    "pass_a": 0.85,
+    "pass_b": 0.8
+   },
+   "alternatives": [
+    "West Bihar"
+   ],
+   "agreement": "both passes agree",
+   "value": "West Bihar",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.875,
+   "flag_reasons": []
+  }
+ },
+ "flag_reasons": []
+}

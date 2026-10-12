@@ -1,0 +1,96 @@
+{
+ "file": "ChatGPT Image May 2, 2026, 03_52_54 PM.png",
+ "pages": 1,
+ "doc_type": "passport",
+ "doc_type_name": "Passport",
+ "classification_confidence": 0.99,
+ "classification_evidence": "REPUBLIC OF INDIA PASSPORT",
+ "has_handwriting": true,
+ "fields": {
+  "passport_number": {
+   "label": "Passport Number",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "X1234567",
+    "pass_b": "X1234567"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "X1234567",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.99,
+   "flag_reasons": []
+  },
+  "date_of_birth": {
+   "label": "Date of Birth",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "18/12/1979",
+    "pass_b": "18/12/1979"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "18/12/1979",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.99,
+   "flag_reasons": []
+  },
+  "date_of_expiry": {
+   "label": "Date of Expiry",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "01/01/2030",
+    "pass_b": "01/01/2030"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "01/01/2030",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.99,
+   "flag_reasons": []
+  },
+  "mrz_line_2": {
+   "label": "MRZ Line 2",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<<08",
+    "pass_b": "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<<08"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "X1234567<7IND7912185M3001010<<<<<<<<<<<<<<<08",
+   "validation": {
+    "status": "warn",
+    "note": "length 45 (ICAO TD3 standard is 44); DOB check digit mismatch; expiry check digit mismatch"
+   },
+   "confidence": 0.95,
+   "flag_reasons": []
+  }
+ },
+ "flag_reasons": []
+}

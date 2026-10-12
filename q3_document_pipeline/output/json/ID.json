@@ -1,0 +1,36 @@
+{
+  "file": "ID.png",
+  "document_type": "PAN Card",
+  "classification_confidence": 0.99,
+  "document_flagged_for_review": false,
+  "fields": {
+    "pan_number": {
+      "label": "PAN Number",
+      "value": "ABCDE1234F",
+      "confidence": 0.99,
+      "handwritten": false,
+      "flagged": false
+    },
+    "full_name": {
+      "label": "Full Name",
+      "value": "MR. ASHOK",
+      "confidence": 1.0,
+      "handwritten": false,
+      "flagged": false
+    },
+    "fathers_name": {
+      "label": "Father's Name",
+      "value": "S/O KUMAR",
+      "confidence": 1.0,
+      "handwritten": false,
+      "flagged": false
+    },
+    "date_of_birth": {
+      "label": "Date of Birth",
+      "value": "18/12/1979",
+      "confidence": 0.99,
+      "handwritten": false,
+      "flagged": false
+    }
+  }
+}

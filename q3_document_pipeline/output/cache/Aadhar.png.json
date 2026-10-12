@@ -1,0 +1,96 @@
+{
+ "file": "Aadhar.png",
+ "pages": 1,
+ "doc_type": "aadhaar_card",
+ "doc_type_name": "Aadhaar Card",
+ "classification_confidence": 0.99,
+ "classification_evidence": "GOVERNMENT OF INDIA, AADHAAR logo, 12-digit Aadhaar number format",
+ "has_handwriting": false,
+ "fields": {
+  "aadhaar_number": {
+   "label": "Aadhaar Number",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "1234 5678 9012",
+    "pass_b": "1234 5678 9012"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "1234 5678 9012",
+   "validation": {
+    "status": "warn",
+    "note": "real Aadhaar numbers never start with 0/1 (sample document?)"
+   },
+   "confidence": 0.95,
+   "flag_reasons": []
+  },
+  "full_name": {
+   "label": "Full Name",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "Mr. Ashok",
+    "pass_b": "Mr. Ashok"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "Mr. Ashok",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 1.0,
+   "flag_reasons": []
+  },
+  "date_of_birth": {
+   "label": "Date of Birth",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "18/12/1979",
+    "pass_b": "18/12/1979"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "18/12/1979",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.99,
+   "flag_reasons": []
+  },
+  "address": {
+   "label": "Address",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "S/O Kumar, Kataia, West Bihar, India - 841543",
+    "pass_b": "S/O Kumar, Kataia, West Bihar, India - 841543"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "S/O Kumar, Kataia, West Bihar, India - 841543",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 1.0,
+   "flag_reasons": []
+  }
+ },
+ "flag_reasons": []
+}

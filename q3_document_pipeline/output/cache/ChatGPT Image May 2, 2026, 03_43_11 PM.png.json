@@ -1,0 +1,96 @@
+{
+ "file": "ChatGPT Image May 2, 2026, 03_43_11 PM.png",
+ "pages": 1,
+ "doc_type": "driving_licence",
+ "doc_type_name": "Driving Licence",
+ "classification_confidence": 0.99,
+ "classification_evidence": "INDIAN UNION DRIVING LICENCE",
+ "has_handwriting": true,
+ "fields": {
+  "dl_number": {
+   "label": "DL Number",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "MH12 2021 0001234",
+    "pass_b": "MH12 2021 0001234"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "MH12 2021 0001234",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.99,
+   "flag_reasons": []
+  },
+  "name": {
+   "label": "Name",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "MR. ASHOK",
+    "pass_b": "MR. ASHOK"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "MR. ASHOK",
+   "validation": {
+    "status": "na",
+    "note": ""
+   },
+   "confidence": 1.0,
+   "flag_reasons": []
+  },
+  "date_of_issue": {
+   "label": "Date of Issue",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "15/06/2021",
+    "pass_b": "15/06/2021"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "15/06/2021",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.99,
+   "flag_reasons": []
+  },
+  "valid_till": {
+   "label": "Valid Till",
+   "handwritten": false,
+   "readings": {
+    "pass_a": "14/06/2041",
+    "pass_b": "14/06/2041"
+   },
+   "model_confidence": {
+    "pass_a": 1.0,
+    "pass_b": 1.0
+   },
+   "alternatives": [],
+   "agreement": "single pass (printed) + validation",
+   "value": "14/06/2041",
+   "validation": {
+    "status": "pass",
+    "note": ""
+   },
+   "confidence": 0.99,
+   "flag_reasons": []
+  }
+ },
+ "flag_reasons": []
+}

@@ -1,0 +1,14 @@
+{
+ "file": "Assignment Ashok.pdf",
+ "pages": 2,
+ "doc_type": "other",
+ "doc_type_name": "Other / Unsupported",
+ "classification_confidence": 0.99,
+ "classification_evidence": "ASSIGNMENT REQUEST FORM",
+ "has_handwriting": true,
+ "fields": {},
+ "flag_reasons": [
+  "Document type is not one of the 10 supported types - route to manual handling."
+ ],
+ "document_flagged": true
+}

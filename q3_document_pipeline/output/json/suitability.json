@@ -1,0 +1,43 @@
+{
+  "file": "suitability.jpeg",
+  "document_type": "Suitability Profiler Declaration",
+  "classification_confidence": 0.99,
+  "document_flagged_for_review": false,
+  "fields": {
+    "application_number": {
+      "label": "Application Number",
+      "value": "1500137601025",
+      "confidence": 0.99,
+      "handwritten": true,
+      "flagged": false
+    },
+    "name_of_life_assured": {
+      "label": "Name of Life Assured",
+      "value": "Ashok",
+      "confidence": 0.97,
+      "handwritten": true,
+      "flagged": false
+    },
+    "name_of_agent_sp": {
+      "label": "Name of Agent/SP",
+      "value": "Ramesh Kumar",
+      "confidence": 0.97,
+      "handwritten": true,
+      "flagged": false
+    },
+    "date": {
+      "label": "Date",
+      "value": "26/04/2026",
+      "confidence": 0.97,
+      "handwritten": true,
+      "flagged": false
+    },
+    "place": {
+      "label": "Place",
+      "value": "West Bihar",
+      "confidence": 0.97,
+      "handwritten": true,
+      "flagged": false
+    }
+  }
+}

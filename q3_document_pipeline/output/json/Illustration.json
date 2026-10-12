@@ -1,0 +1,36 @@
+{
+  "file": "Illustration.jpeg",
+  "document_type": "Benefit Illustration Declaration",
+  "classification_confidence": 0.99,
+  "document_flagged_for_review": true,
+  "fields": {
+    "application_number": {
+      "label": "Application Number",
+      "value": "1500137601025",
+      "confidence": 0.99,
+      "handwritten": true,
+      "flagged": false
+    },
+    "policyholder_name": {
+      "label": "Policyholder Name",
+      "value": "Ashok",
+      "confidence": 0.965,
+      "handwritten": true,
+      "flagged": false
+    },
+    "date": {
+      "label": "Date",
+      "value": "20/04/2026",
+      "confidence": 0.7,
+      "handwritten": true,
+      "flagged": true
+    },
+    "place": {
+      "label": "Place",
+      "value": "West Bihar",
+      "confidence": 0.875,
+      "handwritten": true,
+      "flagged": false
+    }
+  }
+}
